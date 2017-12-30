@@ -66,3 +66,63 @@ nav.mobile.flex {
     width: 100%;
   }
 }
+
+/* main styles */
+main {
+  position: relative;
+  top: 4.125rem;
+}
+
+/* banner styles */
+.banner {
+  padding: 2rem 1.5rem;
+  background-color: lightgrey;
+}
+
+.banner img {
+  width: 60%;
+}
+
+.banner div {
+  width: calc(40% - 1.5rem);
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.banner a {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: white;
+  background-color: darkgrey;
+}
+
+@media only screen and (max-width: 650px) {
+  .banner {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .banner div {
+    width: calc(100% - 2rem);
+    padding: 2rem 1rem;
+  }
+
+  .banner p {
+    font-size: 1.25rem;
+    margin: 2rem 0 1.5rem 0;
+  }
+}
