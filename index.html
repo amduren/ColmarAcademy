@@ -7,21 +7,30 @@
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo"></img>
-      <h1>ColmarAcademy<h1>
-      <nav>
-        <ul>
-          <li>On campus</li>
-          <li>Online</li>
-          <li>For companies</li>
-          <li>Sign in</li>
-        </ul>
-        <ul class="mobile">
-          <li><img src="./resources/images/ic-on-campus.svg" alt="On-Campus Icon"></img></li>
-          <li><img src="./resources/images/ic-online.svg" alt="Online Icon"></img></li>
-          <li><img src="./resources/images/ic-login.svg" alt="Log In Icon"></img></li>
-        </ul>
+    <header class="flex container">
+      <div class="flex">
+        <img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo"></img>
+        <h1><span class="logo">Colmar</span>Academy</h1>
+      </div>
+      <nav class="flex">
+        <span>On campus</span>
+        <span>Online</span>
+        <span>For companies</span>
+        <span>Sign in</span>
+      </nav>
+      <nav class="mobile flex">
+        <span>
+          <img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo"></img>
+        </span>
+        <span>
+          <img src="./resources/images/ic-on-campus.svg" alt="On-Campus Icon"></img>
+        </span>
+        <span>
+          <img src="./resources/images/ic-online.svg" alt="Online Icon"></img>
+        </span>
+        <span>
+          <img src="./resources/images/ic-login.svg" alt="Log In Icon"></img>
+        </span>
       </nav>
     </header>
     <main>
@@ -112,7 +121,7 @@
       <div class="thesis">
         <h1>Thesis exhibit</h1>
         <div class="main">
-          <video autoplay loop>
+          <video width="320px" height="320px" autoplay loop>
             <source src="./resources/videos/thesis.mp4" type="video/mp4">
           </video>
           <h1>Reimagine urban</h1>
