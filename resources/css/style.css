@@ -141,7 +141,8 @@ main {
   width: 60%;
 }
 
-.left-column img {
+.left-column img,
+.left-column video {
   width: 100%;
 }
 
@@ -241,6 +242,66 @@ main {
 
   .supporting.focus a {
     color: rgba(141, 61, 24, 1);
+  }
+}
+
+/* courses styles */
+.courses {
+  background: rgba(141, 61, 24, 1);
+  padding: 2rem 4.5rem;
+}
+
+.courses h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* thesis styles */
+.thesis h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.thesis .left-column h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.thesis .left-column p {
+  padding-bottom: 2rem;
+}
+
+.thesis .information {
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 768px) {
+  .thesis .information {
+    padding: 1rem 0 1.5rem 0;
+  }
+
+  .thesis .left-column {
+    display: block;
+    width: 100%;
+  }
+
+  .thesis .left-column video {
+    width: 100%;
+    height: auto;
+  }
+
+  .thesis .left-column h2,
+  .thesis .left-column p {
+    display: none;
+  }
+
+  .right-column {
+    display: none;
   }
 }
 
