@@ -1,7 +1,7 @@
 /* universal styles */
 html {
   background-color: white;
-  font-family: Helvetica, sans-serif;
+  font-family: "Raleway", "Helvetica", sans-serif;
   font-size: 16px;
 }
 
@@ -359,3 +359,21 @@ main {
 }
 
 /* footer styles */
+footer {
+  border-top: 0.0625rem solid rgba(31, 22, 7, 1);
+  padding: 1rem 1.5rem;
+}
+
+footer a {
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 650px) {
+  footer {
+    border: none;
+  }
+
+  footer a {
+    display: none;
+  }
+}
